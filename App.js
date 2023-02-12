@@ -6,7 +6,7 @@ import React from 'react';
 // import HomeScreen from "./Screens/HomeScreen";
 import BottomTabs from "./Screens/BottomTabs";
 
-export default function App() {
+ function App() {
   return (
     <>
     <BottomTabs />
@@ -14,3 +14,4 @@ export default function App() {
     </>
   );
 }
+export default App();
