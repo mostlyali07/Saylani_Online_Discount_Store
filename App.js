@@ -6,7 +6,7 @@ import React from 'react';
 // import HomeScreen from "./Screens/HomeScreen";
 import BottomTabs from "./Screens/BottomTabs";
 
- function App() {
+export default function App() {
   return (
     <>
     <BottomTabs />
@@ -14,4 +14,3 @@ import BottomTabs from "./Screens/BottomTabs";
     </>
   );
 }
-export default App();

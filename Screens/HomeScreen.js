@@ -37,6 +37,7 @@ export default function HomeScreen() {
           flexDirection: 'row',
           justifyContent: 'space-between',
           backgroundColor: '#fff',
+          padding: 12
         }}>
         <View style={{marginLeft: 10}}>
           <Text
