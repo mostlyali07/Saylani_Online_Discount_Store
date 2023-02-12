@@ -1,6 +1,6 @@
 import React from 'react';
 // import { Text } from 'react-native';
-import LinkButton from "./Screens/WelcomeScreen";
+import WelcomeScreen from "./Screens/WelcomeScreen";
 // import RegisterScreen from "./Screens/RegisterScreen";
 // import LoginScreen from "./Screens/LoginScreen";
 // import HomeScreen from "./Screens/HomeScreen";
@@ -9,7 +9,7 @@ import LinkButton from "./Screens/WelcomeScreen";
 export default function App() {
   return (
     <>
-    <LinkButton />
+    <WelcomeScreen />
       {/* <Text>Hello</Text> */}
     </>
   );
