@@ -35,32 +35,6 @@ function LoginScreen() {
             width: 300,
             marginTop: 6,
           }}
-          placeholder={'Full Name'}
-        />
-        <TextInput
-          style={{
-            paddingVertical: 10,
-            paddingHorizontal: 15,
-            backgroundColor: '#fff',
-            borderRadius: 60,
-            borderColor: '#c0c0c0',
-            borderWidth: 1,
-            width: 300,
-            marginTop: 6,
-          }}
-          placeholder={'Contact'}
-        />
-        <TextInput
-          style={{
-            paddingVertical: 10,
-            paddingHorizontal: 15,
-            backgroundColor: '#fff',
-            borderRadius: 60,
-            borderColor: '#c0c0c0',
-            borderWidth: 1,
-            width: 300,
-            marginTop: 6,
-          }}
           placeholder={'Email'}
         />
         <TextInput
@@ -88,7 +62,7 @@ function LoginScreen() {
             borderRadius: 12,
           }}>
           <Text style={{color: '#fff', fontSize: 26, fontWeight: 600}}>
-            Sign Up
+            Log In
           </Text>
         </Pressable>
       </View>
