@@ -1,8 +1,7 @@
 import * as React from 'react';
-// import {Image} from 'react-native';
+// import {View} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-// import {MaterialIcons} from 'react-native-vector-icons/MaterialIcons';
 import HomeScreen from './HomeScreen';
 import CartScreen from './CartScreen';
 import ProfileScreen from './ProfileScreen';
@@ -11,21 +10,21 @@ const BottomTabs = () => {
   const Tab = createBottomTabNavigator();
   return (
     <NavigationContainer>
-      <Tab.Navigator
-        tabBarOptions={{
-          activeTintColor: 'green',
-          inactiveTintColor: 'gray',
-        }}>
-        <Tab.Screen
-          name="Home"
-          component={HomeScreen}
-          options={{
-            tabBarLabel: 'Home',
-          }}
-        />
-        <Tab.Screen name="Cart" component={CartScreen} />
-        <Tab.Screen name="Profile" component={ProfileScreen} />
-      </Tab.Navigator>
+        <Tab.Navigator
+          tabBarOptions={{
+            activeTintColor: 'green',
+            inactiveTintColor: 'gray',
+          }}>
+          <Tab.Screen
+            name="Home"
+            component={HomeScreen}
+            options={{
+              tabBarLabel: 'Home',
+            }}
+          />
+          <Tab.Screen name="Cart" component={CartScreen} />
+          <Tab.Screen name="Profile" component={ProfileScreen} />
+        </Tab.Navigator>
     </NavigationContainer>
   );
 };
