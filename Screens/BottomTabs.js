@@ -10,11 +10,7 @@ const BottomTabs = () => {
   const Tab = createBottomTabNavigator();
   return (
     <NavigationContainer>
-        <Tab.Navigator
-          tabBarOptions={{
-            activeTintColor: 'green',
-            inactiveTintColor: 'gray',
-          }}>
+        <Tab.Navigator>
           <Tab.Screen
             name="Home"
             component={HomeScreen}
