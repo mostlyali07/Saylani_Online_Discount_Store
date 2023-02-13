@@ -9,7 +9,7 @@ import BottomTabs from "./Screens/BottomTabs";
 export default function App() {
   return (
     <>
-    <BottomTabs />  
+    <BottomTabs /> 
     </>
   );
 }
